@@ -1,4 +1,5 @@
 > **On-Policy Reinforcement Learning: SARSA Implementation on CliffWalking-v1**
+
 > A clean, end-to-end implementation of the SARSA (State-Action-Reward-State-Action) algorithm using Python and Gymnasium. This project demonstrates on-policy temporal-difference learning, $\epsilon$-greedy exploration, and Q-table optimization to solve the classic gridworld "Cliff Walking" problem.
 
 
@@ -26,5 +27,4 @@ This project implements the **SARSA** algorithm to navigate the **CliffWalking-v
 * **Learning Curve**: The agent successfully learns to avoid the -100 penalty cliff, optimizing from a highly negative initial reward to a stable total reward of approximately **-17** over 17 steps.
 * **Convergence**: Demonstrates clear convergence in both total reward and episode length as training progresses.
 
-1. Install dependencies: `pip install gymnasium[toy-text] numpy pygame-ce`.
-2. Open `SARSA.ipynb` and run all cells to train and visualize the agent.
+
