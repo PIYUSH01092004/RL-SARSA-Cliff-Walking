@@ -1,7 +1,7 @@
 > **On-Policy Reinforcement Learning: SARSA Implementation on CliffWalking-v1**
 > A clean, end-to-end implementation of the SARSA (State-Action-Reward-State-Action) algorithm using Python and Gymnasium. This project demonstrates on-policy temporal-difference learning, $\epsilon$-greedy exploration, and Q-table optimization to solve the classic gridworld "Cliff Walking" problem.
 
- **Detailed Project Overview**
+
 This project implements the **SARSA** algorithm to navigate the **CliffWalking-v1** environment. Unlike off-policy methods like Q-Learning, SARSA updates its action-value function based on the actual actions taken by the current policy, including exploration steps.
 
 **Key Technical Details**
